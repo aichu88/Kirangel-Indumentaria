@@ -1,0 +1,247 @@
+
+/* SE USA EN EL INICIO Y EN PRODUCTOS */
+
+.txt{
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px;
+}
+.linea{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imagenes .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+}
+.imagenes .img img{
+    width: 200px;
+    height: 200px;
+}
+.imagenes h3, .imagenes p{
+    margin: 10px;
+    text-align: center;
+}
+.imagenes .img p{
+    margin: 50px;
+    text-align: center;
+}
+/* SE USA EN NOSOTROS */
+.presentacion {
+    text-align: center;
+}
+.presentacion h1{
+    margin-top: 100px;
+}
+.presentacion p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+iframe{
+    margin-top: 20px;
+}
+.redes-dos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+    
+}
+.redes-dos ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+.redes-dos a{
+    text-decoration: none;
+}
+#facebook-logo-dos{
+    background: url(../IMGS/facebook-gris.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
+#instagram-logo-dos{
+    background: url(../IMGS/instagram-gris.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
+#whatsapp-logo-dos{
+    background: url(../IMGS/whatsapp-gris.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
+/*SE USA EN LOS HTML DE LOS PRODUCTOS*/
+.texto-producto{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 150px;
+}
+
+.texto-producto p{
+    font-size: 20px;
+}
+.img-producto{
+    display:flex;
+    float: left;
+    width: 700px;
+    height: 500px;
+    margin-right: 0px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.boton{
+    border: 1px solid white;
+    padding: 10px;
+    background-color: mediumseagreen;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin: 10px;
+    display:inline-flex;
+}
+/* SE USA EN TODOS LOS HTML*/
+.logo img{
+    width: 120px;
+    height: 130px;
+    display:flex;
+    float: left;
+}
+.barra{
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.navegacion{
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+.indice {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.cabecera{
+    width: 100%;
+    overflow: hidden;
+    max-height: 700px;
+    color: #000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 4px;
+    color: #000000;
+}
+ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 20%;
+}
+ul li a{
+    color: #000000;
+}
+h1{
+    font-size: 44px;
+}
+h2{
+    font-size: 28px;
+}
+footer{
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    width: auto;
+    height: 100px;
+    margin-top: 500px;
+    margin-bottom: 0px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+}
+.redes ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+.redes a{
+    text-decoration: none;
+}
+.texto-footer p{
+    margin-top: 75px;
+
+}
+#facebook-logo{
+    background: url(../IMGS/facebook-blanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
+#instagram-logo{
+    background: url(../IMGS/instagram-blanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
+#whatsapp-logo{
+    background: url(../IMGS/whatsapp-blanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
